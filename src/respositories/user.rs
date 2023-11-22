@@ -3,6 +3,7 @@ pub struct UserRepository {
     pub email: String,
 }
 
+//implementasi dari struct UserRepository
 impl UserRepository {
     pub fn create() -> UserRepository {
         UserRepository {
